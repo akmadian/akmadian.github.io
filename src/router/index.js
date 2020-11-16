@@ -22,6 +22,11 @@ const routes = [
     path: '/resume',
     name: 'Resume',
     beforeEnter:() => { window.location = "https://raw.githubusercontent.com/akmadian/resume/main/resume.pdf"}
+  },
+  {
+    path: '/tealog',
+    name: 'Tea Log',
+    beforeEnter: () => { window.location = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS02eDhzImMzVQ_jO3E2rJn-nBI30ZkyKyBTn42EwNxaU-CTHrGik0LJQ9e9gMhP5qX0UmXhaJ-7eXo/pubhtml?gid=0&single=true"}
   }
 ]
 
