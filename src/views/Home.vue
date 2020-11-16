@@ -15,6 +15,9 @@
             <a href="https://www.github.com/akmadian">
               <a-icon type="github" theme="filled"/>
             </a>
+            <a href="mailto:akmadian@gmail.com">
+              <a-icon type="mail" theme="filled"/>
+            </a>
           </template>
         </a-page-header>
         <a-row id="bio">
@@ -25,6 +28,8 @@
 
           <br/><br/>
           I enjoy data science and full stack development. Outside of software, I'm a tea enthusiast and cinephile : )
+          <br/><br/>
+          You can find more details in <b><router-link to="/resume">my resume</router-link></b>.
 
           <div style="display:none">
           <br/><br/>
@@ -35,10 +40,10 @@
           
           I also made NZXTSharp, a .NET SDK for NZXT PC components.
           <br/><br/>
-          Outside of programming, I am a tea enthusiast and cinephile.   
+          Outside of programming, I am a tea enthusiast and cinephile.
           </div>
         </a-row>
-        <a-row>
+        <a-row style="display:none">
           <br><br>
           <a-collapse :bordered="false" id="collapse">
             <a-collapse-panel header="Some boring stuff you might want to look at">
@@ -59,6 +64,7 @@ A: I don't really have a favorite, but Inglorius Basterds, The Godfathers, and e
 
             </a-collapse-panel>
           </a-collapse>
+          <BioCollapse/>
         </a-row>
       </a-col>
     </a-row>
@@ -66,9 +72,14 @@ A: I don't really have a favorite, but Inglorius Basterds, The Godfathers, and e
 </template>
 <style>
 #links i, svg {
-  width: 1.75rem;
-  height: 1.75rem;
+  width: 1.3rem;
+  height: 1.3rem;
   fill:black;
+  margin-top: 2px;
+}
+
+#links i:hover, svg:hover {
+  transform: translate(0px, -1px);
 }
 
 #links a {
@@ -89,9 +100,12 @@ A: I don't really have a favorite, but Inglorius Basterds, The Godfathers, and e
 }
 </style>
 <script>
+import BioCollapse from '@/components/BioCollapse'
+
 export default {
   name: 'Home',
   components: {
+    BioCollapse
   }
 }
 </script>

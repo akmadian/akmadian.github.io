@@ -20,7 +20,8 @@ const routes = [
   },
   {
     path: '/resume',
-    beforeEnter() { location.href = "https://raw.githubusercontent.com/akmadian/resume/master/resume.pdf"}
+    name: 'Resume',
+    beforeEnter:() => { window.location = "https://raw.githubusercontent.com/akmadian/resume/main/resume.pdf"}
   }
 ]
 
