@@ -1,0 +1,26 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.05 72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #231f20;
+      }
+
+      .cls-2 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <title>ari logo 1-1</title>
+  <rect class="cls-1" x="0.05" width="72" height="72"/>
+  <g>
+    <path class="cls-2" d="M37.62,50.36H34.69l-13.44-29H23.9Z" transform="translate(0.05)"/>
+    <path class="cls-2" d="M14.49,21.37h2.38l-13.75,29H.74Z" transform="translate(0.05)"/>
+    <path class="cls-3" d="M38,50.86l4.28-29.95h.49L54.91,45.48l12-24.57h.48l4.3,30H68.78l-3-21.42L55.27,50.86h-.76L43.82,29.28,40.89,50.86Z" transform="translate(0.05)"/>
+    <path class="cls-2" d="M20.81,21.37h2.64L10,50.36H7.05Z" transform="translate(0.05)"/>
+  </g>
+</svg>
